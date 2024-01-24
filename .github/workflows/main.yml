@@ -5,7 +5,7 @@ on:
       types: [labeled]
 jobs:
   build:
-    name: test
+    name: testing
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.labels.*.name, 'safe to test')
     steps:
