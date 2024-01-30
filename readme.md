@@ -5,18 +5,20 @@
 
 # Used skills
 ### 📋 Languages
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white">
 
 ### 🖥️ ML/DL
 <img src="htt
-ps://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black">
+ps://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black">
 
 ### ☁️ Hosting/SaaS
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">
+<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white">
 
 ### 💾 Databases
-<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white">
 
+### 👷CI/CD
+![example workflow](https://github.com/dbehdrnr0202/ER_statistics/blob/main/.github/workflows/main.yml/badge.svg?branch=develop)
 
 # Notion
 [notion 주소](https://dent-crocodile-dde.notion.site/ER-project-3db7e6843eab4906b915b37df5c938c1?pvs=4)
@@ -46,4 +48,4 @@ aws ec2 인스턴스를 ER api 저장하는 mongoDB로 설정하는 관련 코�
 [Link to manual readme.md](./ER_EC2/readme.md)
 
 ## TODO
-.env 설정하기
+1. crontab으로 매일 9시마다 이터니티 갖고오기
