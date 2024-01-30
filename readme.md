@@ -18,7 +18,7 @@ ps://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=
 <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white">
 
 ### 👷CI/CD
-![example workflow](https://github.com/dbehdrnr0202/ER_statistics/blob/main/.github/workflows/main.yml/badge.svg?branch=develop)
+![example workflow](https://github.com/dbehdrnr0202/ER_statistics/tree/docs/.github/workflows/main.yml/badge.svg)
 
 # Notion
 [notion 주소](https://dent-crocodile-dde.notion.site/ER-project-3db7e6843eab4906b915b37df5c938c1?pvs=4)
