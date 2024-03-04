@@ -15,7 +15,7 @@ OK_RESPONSE = int(os.environ.get("OK_RESPONSE"))
 SEASON_ID = int(os.environ.get("SEASON_ID"))
 
 
-def setting_header(param_dict: dict = {}) -> (dict, dict):
+def setting_header(param_dict: dict = {}) -> tuple[dict, dict]:
     with open("setting/secret.json", "r", encoding="utf-8") as f:
         token = json.load(f)
     header_dict = {}
@@ -189,3 +189,19 @@ def request_region_rankers_eternity_cut(
                 "mmr": ranker_datas[ranker_nickname]["mmr"],
             }
     return None
+
+def reqeust_users_match(user_id:int, game_mode:list, until_season)->dict:
+    responced_top_ranker_datas = request_to_ER_api(
+        request_url=f"https://open-api.bser.io/v1/user/games/{user_id}"
+    )
+
+def request_season_info(current_season:bool=False)->dict:
+    responsed_season_datas = request_to_ER_api(
+        request_url="https://open-api.bser.io/v2/data/Season"
+    )
+    responsed_season_datas = responsed_season_datas.get('data', None)
+    if current_season:
+        for season_data in responsed_season_datas:
+            if season_data['isCurrent']:
+                return season_data
+    return responsed_season_datas
